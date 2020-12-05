@@ -15,7 +15,8 @@ int main()
 	while (1) {
 		sleep(1);
 		erase();
-		move(0, 0);
+		move(1, 1);
+		addstr(str[count]);
 		addstr(str[count]);
 		refresh();
 		count++;
